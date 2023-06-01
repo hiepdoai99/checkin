@@ -1,0 +1,139 @@
+// Normal Colors
+$blue: #4466F2;
+$dark-blue: #2850f0;
+$indigo: #6610f2;
+$purple: #6a008a;
+$light-purple: #964ed8;
+$pink: #E91E63;
+$red: #f96868;
+$orange: #f2a654;
+$yellow: #f6e84e;
+$green: #46c35f;
+$teal: #58d8a3;
+$cyan: #57c7d4;
+$black: #000;
+$white: #ffffff;
+$white-smoke: #f2f7f8;
+$violet: #41478a;
+$darkslategray: #2e383e;
+$dodger-blue: #3498db;
+$color-default: #eaeef6;
+
+// Color Variables
+$brand-color: #1B4A8A;
+$base-color: #F9F9F9;
+$default-secondary-color: #9397A0;
+$default-light-color: #F5F8FF;
+$muted-color: #afb1b6;
+$note-bg-color: rgba(255, 204, 23, 0.09);
+$note-bg-blue-color: rgba(236, 236, 255, 0.9);
+$note-bg-red-color: rgba(255, 233, 233, 0.9);
+$note-bg-purple-color: rgba(255, 231, 255, 0.9);
+$note-bg-success-color: rgba(211, 255, 220, 0.9);
+$note-bg-info-color: rgba(212, 249, 255, 0.9);
+$gray-1: #8A8A8A;
+$info-color: #1B4A8A;
+$warning-color: #FC6510;
+$error-color: #cc3300;
+$danger-color: #fc2c10;
+$success-color: #69BD45;
+
+// Border Variables
+$default-radius: 0.25rem;
+
+// Fonts
+$light-layout-secondary-font-color: #8A8A8A;
+$default-font-size: 0.935rem;
+$type-1: 'Google Sans', sans-serif;
+
+// Buttons
+$action-button-padding: 0.4rem 0.5rem;
+$default-button-padding: 0.45rem 1.2rem;
+
+// Cards
+$default-card-padding: 2rem;
+
+// Dropdown
+$dropdown-arrow-font-size: 0.55rem;
+
+// Measurement & Property Variables
+$default-padding-margin: 2rem;
+$bootstrap-column-padding: 1rem;
+$main-content-wrapper-padding: 2rem;
+$filter-button-padding: 0.5rem 1.5rem;
+
+// Transition Variables
+$default-transition-duration: 0.25s;
+$action-transition-duration: 0.25s;
+$action-transition-timing-function: ease-in-out;
+
+// Form Variables
+$wizard-step-btn-default-color: $default-secondary-color;
+$forms-input-text-color: #898989;
+$filter-btn-text-color: $light-layout-secondary-font-color;
+$inputs-focus-color: $blue;
+$default-input-box-padding: 10px 14px;
+
+// Misc Variables
+$default-scrollbar-width: 6px;
+$light-layout-card-bg: $white;
+$default-modal-padding: 1.688rem;
+$modal-close-icon-hover-bg: rgba(0, 0, 0, 0.02);
+$default-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+$default-card-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+$default-light-btn-hover-bg: rgba(245, 248, 255, 0.95);
+$default-dark-btn-hover-bg: rgba(68, 102, 242, 0.95);
+
+// Navbar
+$navbar-height: 70px;
+$navbar-menu-color: #9c9fa6;
+$navbar-font-size: 0.875rem;
+$light-navbar-link-color: $brand-color;
+
+// Sidebar
+$sidebar-width-lg: 280px;
+$sidebar-width-icon: 70px;
+$sidebar-scrollbar-width: 6px;
+$sidebar-scrollbar-thumb-color: #566076;
+$sidebar-menu-padding-y: 0.5rem;
+$sidebar-menu-padding-x: 1.25rem;
+$sidebar-menu-font-size: $default-font-size;
+$sidebar-submenu-font-size: .8125rem;
+$sidebar-submenu-item-padding: .75rem 1.35rem .75rem 1.35rem;
+$sidebar-icon-font-size: 1.125rem;
+$sidebar-arrow-font-size: 0.75rem;
+$icon-only-collapse-width: 190px;
+
+$sidebar-light-submenu-color: #888;
+$sidebar-light-menu-arrow-color: #9e9da0;
+
+$sidebar-dark-bg: #2B303B;
+$sidebar-dark-menu-color: #707887;
+$sidebar-submenu-bg-color: darken($sidebar-dark-bg, 6%);
+$navbar-brand-bg: darken($sidebar-dark-bg, 6%);
+
+// Variables for dark layout
+$dark-layout-base-color: darken($sidebar-dark-bg, 6%);
+$dark-layout-default-border-color: lighten($sidebar-dark-bg, 8%);
+$dark-layout-box-shadow: 0px 0 10px 0 rgba(0, 0, 0, 0.5);
+
+// Variables for mobile view
+$default-font-size-for-mobile: 0.9rem;
+$main-content-wrapper-mobile-padding: 20px;
+$default-padding-margin-for-mobile: 20px;
+
+// color
+$color-sky-1: #2EA7FF;
+$color-sky-2: #DDECFB;
+$color-sky-3: #D8F1F7;
+$color-sky-4: #00D6E1;
+$color-sky-5: #F7F9FE;
+
+$color-orange-1: #FF9F07;
+
+$color-red-1: #F2EBE1;
+
+$color-gray-1: #E6EFE2;
+$color-gray-2: #D0DAEC;
+
+$color-green-1: #89C111;

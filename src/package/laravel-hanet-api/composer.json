@@ -1,0 +1,40 @@
+{
+    "name": "htqxd/laravel-hanet-api",
+    "description": "Laravel Package for Hanet Ai Api Client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Htqxd\\LaravelHanetApi\\": "src/"
+        },
+        "files": [
+            "src/hanet_helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Hung, Trinh Quang"
+        }
+    ],
+    "require": {
+        "htqxd/hanet-api": "*",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/database": "^7.0|^8.0|^9.0",
+        "spatie/laravel-queueable-action": "^2.14"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url":  "../hanet-api"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Htqxd\\LaravelHanetApi\\LaravelHanetApiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

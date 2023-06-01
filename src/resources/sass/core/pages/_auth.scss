@@ -1,0 +1,92 @@
+@import "../variables";
+@import "../theme-colors";
+
+.back-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 250px 0;
+}
+
+.login-form {
+  min-height: 100vh;
+  overflow-y: auto;
+  box-shadow: var(--default-box-shadow);
+  background-color: var(--authentication-form-bg);
+
+  .sign-in-sign-up-form {
+    padding: 4rem;
+
+    .logo {
+      max-width: 170px;
+      max-height: 70px;
+    }
+
+    .form-row {
+      .form-group {
+        margin-bottom: 2rem;
+      }
+
+      .bluish-text {
+        svg {
+          height: 25px;
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+.content-image {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  // position: absolute;
+  // bottom: 35px;*/ 
+}
+.text-back-image{
+  width: calc(100% / 3);
+  display: inline-block;
+  padding: 0 12px;
+  p{
+    margin-bottom: 0;
+  }
+  a {
+    color: $color-green-1;
+  }
+  span {
+    font-weight: 600;
+    color: $color-green-1;
+  }
+}
+.button-submit {
+  background-color: $color-green-1;
+  border-radius: 50px;
+  color: $white;
+  font-weight: bold;
+}
+
+// resonsive 
+@media only screen and (max-width: 1259px) {
+  .login-form {
+    .sign-in-sign-up-form {
+      padding: 1rem;
+    }
+  }
+  .back-image {
+    padding: 220px 0;
+  }
+  .text-back-image {
+    width: calc(100% / 2);
+    display: inline-block;
+    padding: 0 12px;
+  }
+}
